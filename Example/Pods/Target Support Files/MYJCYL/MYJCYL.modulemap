@@ -1,0 +1,6 @@
+framework module MYJCYL {
+  umbrella header "MYJCYL-umbrella.h"
+
+  export *
+  module * { export * }
+}

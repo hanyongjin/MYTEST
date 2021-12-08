@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MYJCYL (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MYJCYL (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MYJCYL:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MYJCYL: 6fdf0eeeb379a8e53a72e00eba7ee55da3a7e288
+
+PODFILE CHECKSUM: f4dd277374a8c3077889eca4c9bc84cfd7403d1d
+
+COCOAPODS: 1.10.1
